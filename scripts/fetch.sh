@@ -28,7 +28,10 @@ fetch() {
 
   local filter="istio-${version}/manifests/charts"
   local out="${BASE}/charts/v${version}"
-  rm -fr "$out"
+  if [[ -d "$out" ]]; then
+    return
+  fi
+
   mkdir -p "$out"
 
   echo >&2 "Fetching ${url}"

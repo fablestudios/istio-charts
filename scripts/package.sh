@@ -3,16 +3,17 @@
 set -eu -o pipefail
 
 BASE="$(git rev-parse --show-toplevel)"
-VERSIONS=(1.9.6 1.10.2)
 
 main() {
   local version="${1:-}"
+  local p v
 
   if [[ -n "$version" ]]; then
     package "$version"
   else
-    for version in "${VERSIONS[@]}"; do
-      package "$version"
+    for p in charts/*; do
+      v="$(basename "$p")"
+      package "${v#v}"
     done
   fi
 }

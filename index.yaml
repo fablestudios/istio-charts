@@ -2,6 +2,19 @@ apiVersion: v1
 entries:
   base:
   - apiVersion: v1
+    created: "2021-07-19T09:46:06.112227-07:00"
+    description: Helm chart for deploying Istio cluster resources and CRDs
+    digest: 284b55237172e7eecf27715c2edf501dcca0f06f6f629a2e7132934d258a228b
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    name: base
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/fablestudios/istio-charts/releases/download/base-1.10.3/base-1.10.3.tgz
+    version: 1.10.3
+  - apiVersion: v1
     created: "2021-07-16T15:54:35.909377-07:00"
     description: Helm chart for deploying Istio cluster resources and CRDs
     digest: 88eb060099ad0c2f297dec498197096350523484b2afcefdf8ad4929fa27761d
@@ -28,6 +41,20 @@ entries:
     - https://github.com/fablestudios/istio-charts/releases/download/base-1.9.6/base-1.9.6.tgz
     version: 1.9.6
   cni:
+  - apiVersion: v1
+    created: "2021-07-19T09:46:06.784243-07:00"
+    description: Helm chart for istio-cni components
+    digest: 95cc17c6cdc71b282bdc0266efd89a6cef41ae298f2c2ecd8ab844c4a4fb2f29
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio-cni
+    - istio
+    name: cni
+    sources:
+    - http://github.com/istio/cni
+    urls:
+    - https://github.com/fablestudios/istio-charts/releases/download/cni-1.10.3/cni-1.10.3.tgz
+    version: 1.10.3
   - apiVersion: v1
     created: "2021-07-16T15:54:36.251589-07:00"
     description: Helm chart for istio-cni components
@@ -57,6 +84,21 @@ entries:
     - https://github.com/fablestudios/istio-charts/releases/download/cni-1.9.6/cni-1.9.6.tgz
     version: 1.9.6
   discovery:
+  - apiVersion: v1
+    created: "2021-07-19T09:46:07.396689-07:00"
+    description: Helm chart for istio control plane
+    digest: 7b6c203f2ad017b006513e025ae867bd8d521cd9bce14b9197c2923d9b631c01
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - istiod
+    - istio-discovery
+    name: discovery
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/fablestudios/istio-charts/releases/download/discovery-1.10.3/discovery-1.10.3.tgz
+    version: 1.10.3
   - apiVersion: v1
     created: "2021-07-16T15:54:36.589289-07:00"
     description: Helm chart for istio control plane
@@ -89,6 +131,21 @@ entries:
     version: 1.9.6
   egress:
   - apiVersion: v1
+    created: "2021-07-19T09:46:07.999731-07:00"
+    description: Helm chart for deploying Istio gateways
+    digest: 3cac28adfe3bc867d5be8de9d66653aa2a9d85dfce9acdb6eadfa96fe6915bfb
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - egressgateway
+    - gateways
+    name: egress
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/fablestudios/istio-charts/releases/download/egress-1.10.3/egress-1.10.3.tgz
+    version: 1.10.3
+  - apiVersion: v1
     created: "2021-07-16T15:54:36.918491-07:00"
     description: Helm chart for deploying Istio gateways
     digest: 6c3fc86f6726e3c8b50caff4f25d3a51aab28d4efb44f9389553a10ce44f1dc0
@@ -119,6 +176,21 @@ entries:
     - https://github.com/fablestudios/istio-charts/releases/download/egress-1.9.6/egress-1.9.6.tgz
     version: 1.9.6
   ingress:
+  - apiVersion: v1
+    created: "2021-07-19T09:46:08.555678-07:00"
+    description: Helm chart for deploying Istio gateways
+    digest: c75ccdfa7772760c2c3659c8cb01f208b9d8fe013ce5c046dee0555ea92c71e2
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - ingressgateway
+    - gateways
+    name: ingress
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/fablestudios/istio-charts/releases/download/ingress-1.10.3/ingress-1.10.3.tgz
+    version: 1.10.3
   - apiVersion: v1
     created: "2021-07-16T15:54:37.251862-07:00"
     description: Helm chart for deploying Istio gateways
@@ -151,6 +223,20 @@ entries:
     version: 1.9.6
   istiod-remote:
   - apiVersion: v1
+    created: "2021-07-19T09:46:09.124744-07:00"
+    description: Helm chart for istio control plane configuration for remote clusters
+    digest: 892057076bdf98fe9b976b0bf25dbb6f9fa8a5b71068f16094273807117157c2
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - istiod-remote
+    name: istiod-remote
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/fablestudios/istio-charts/releases/download/istiod-remote-1.10.3/istiod-remote-1.10.3.tgz
+    version: 1.10.3
+  - apiVersion: v1
     created: "2021-07-16T15:54:37.589788-07:00"
     description: Helm chart for istio control plane configuration for remote clusters
     digest: 96cc1a0eaa28700913d8c3a5912e081585e4143ccdbd0ab948dc124a9eba4d60
@@ -180,6 +266,20 @@ entries:
     version: 1.9.6
   operator:
   - apiVersion: v1
+    created: "2021-07-19T09:46:09.660118-07:00"
+    description: Helm chart for deploying Istio operator
+    digest: d809867ea0582f800f524d15d31311f5dd697f6af880b7eb71586e748c000d91
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - operator
+    name: operator
+    sources:
+    - https://github.com/istio/istio/tree/master/operator
+    urls:
+    - https://github.com/fablestudios/istio-charts/releases/download/operator-1.10.3/operator-1.10.3.tgz
+    version: 1.10.3
+  - apiVersion: v1
     created: "2021-07-16T15:54:37.976151-07:00"
     description: Helm chart for deploying Istio operator
     digest: 0ce1feab6f28361f9cfe807ee597a559cf3ffd84934777241ddc9ef173b43e57
@@ -207,4 +307,4 @@ entries:
     urls:
     - https://github.com/fablestudios/istio-charts/releases/download/operator-1.9.6/operator-1.9.6.tgz
     version: 1.9.6
-generated: "2021-07-16T15:54:38.132921-07:00"
+generated: "2021-07-19T09:46:09.852954-07:00"

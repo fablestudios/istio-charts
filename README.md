@@ -53,3 +53,11 @@ helm install istio-operator istio/operator \
 ```
 
 [istio-operator]: https://istio.io/latest/docs/setup/install/operator/
+
+## Available versions
+
+The following chart versions are available in this Helm repository:
+
+- [Istio 1.10.3](https://istio.io/latest/news/releases/1.10.x/announcing-1.10.3/)
+- [Istio 1.10.2](https://istio.io/latest/news/releases/1.10.x/announcing-1.10.2/)
+- [Istio 1.9.6](https://istio.io/latest/news/releases/1.9.x/announcing-1.9.6/)

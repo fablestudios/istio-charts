@@ -3,7 +3,7 @@
 set -eu -o pipefail
 
 BASE="$(git rev-parse --show-toplevel)"
-VERSIONS=(1.9.6 1.10.2 1.10.3)
+VERSIONS=(1.9.6 1.10.2 1.10.3 1.11.0)
 
 main() {
   local version="${1:-}"
